@@ -1,6 +1,7 @@
 {
   "name": "PanoramaViewExample",
   "version": "0.0.1",
+  "private": true,
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -10,7 +11,7 @@
   },
   "dependencies": {
     "@lightbase/react-native-panorama-view": "file:../",
-    "react": "^17.0.2",
+    "react": "16.11.0",
     "react-native": "0.62.2"
   },
   "devDependencies": {
