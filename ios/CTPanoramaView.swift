@@ -38,7 +38,7 @@ import ImageIO
     @objc public var panSpeed = CGPoint(x: 0.4, y: 0.4)
     @objc public var startAngle: Float = 0
 
-    @objc public var angleOffset: Float = 20 {
+    @objc public var angleOffset: Float = 50 {
         didSet {
             geometryNode?.rotation = SCNQuaternion(0, 1, 0, angleOffset)
         }
